@@ -1,3 +1,14 @@
+
+/* Application wide styles */
+page {
+    background-color: #383838;
+}
+
+button { 
+    background-color: orange;
+    color: black;
+}
+
 .tab-content {
     vertical-align: center;
     color: #808080;
