@@ -1,0 +1,6 @@
+{
+    "name": "tns-samples-template-tab-navigation",
+    "main": "app.js",
+    "version": "0.9.0",
+    "description": "NativeScript template-tab-navigation sample application"
+}
