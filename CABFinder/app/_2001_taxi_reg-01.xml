@@ -1,0 +1,20 @@
+<Page xmlns="http://www.nativescript.org/tns.xsd" loaded="pageLoaded">
+  <TabView>
+    <TabView.items>  
+      <TabEntry title="REGISTRATION | Black Cab">
+        <TabEntry.view>
+          <StackLayout cssClass="tab-content">
+              <Label text="FILL IN PLEASE" cssClass="title"/>
+              <TextField hint="TfL License" size="2"/>
+              <TextField hint="DVLA License" />
+              <TextField hint="First Name" />
+              <TextField hint="Last Name" size="2"/>
+              <TextField hint="Mobile Number" />
+              <TextField hint="Email Address" />
+             <Button text="SAVE & NEXT" tap="buttonTap" />
+          </StackLayout>
+        </TabEntry.view>
+      </TabEntry>
+    </TabView.items>
+  </TabView>
+</Page>

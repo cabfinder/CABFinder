@@ -1,0 +1,20 @@
+<Page xmlns="http://www.nativescript.org/tns.xsd" loaded="pageLoaded">
+  <TabView>
+    <TabView.items>  
+      <TabEntry title="REGISTRATION | Black Cab">
+        <TabEntry.view>
+          <StackLayout cssClass="tab-content">
+              <Label text="CAR INFO PLEASE" cssClass="title"/>
+              <TextField hint="VRM | car registration" size="2"/>
+              <TextField hint="MAKE" />
+              <TextField hint="COLOUR" />
+              <TextField hint="MODEL" size="2"/>
+              <TextField hint="YEAR" />
+              <TextField hint="SEAT capacity" />
+             <Button text="SAVE & NEXT" tap="buttonTap" />
+          </StackLayout>
+        </TabEntry.view>
+      </TabEntry>
+    </TabView.items>
+  </TabView>
+</Page>
