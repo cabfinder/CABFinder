@@ -1,0 +1,35 @@
+<Page xmlns="http://www.nativescript.org/tns.xsd" loaded="pageLoaded">
+  <TabView>
+    <TabView.items>
+      <TabEntry title="Black Taxi">
+        <TabEntry.view>
+          <StackLayout cssClass="tab-content">
+            <Label text="Passenger View" cssClass="title"/>
+            <Label text="Passenger View." textWrap="true"/>
+          </StackLayout>
+        </TabEntry.view>
+      </TabEntry>
+       <TabEntry title="Mini Cab">
+        <TabEntry.view>
+          <StackLayout cssClass="tab-content">
+            <Label text="Passenger View" cssClass="title"/>
+            <Label text="Passenger View." textWrap="true"/>
+          </StackLayout>
+        </TabEntry.view>
+      </TabEntry>
+      <TabEntry title="ALL">
+        <TabEntry.view>
+          <StackLayout cssClass="tab-content">
+            <Label text="Fill in the spaces" cssClass="title"/>
+              <TextField hint="Enter your name" size="2"/>
+              <TextField hint="Enter your mobile" />
+              <TextField hint="Enter your email" />
+            <Label text="Confirm your call" textWrap="true"/>
+             <Button text="OK" tap="buttonTap" />
+              <Button text="Send text or details" tap="buttonTap" />
+          </StackLayout>
+        </TabEntry.view>
+      </TabEntry>
+    </TabView.items>
+  </TabView>
+</Page>
