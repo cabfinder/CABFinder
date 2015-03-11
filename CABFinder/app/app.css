@@ -1,21 +1,29 @@
 .tab-content {
-    vertical-align: center;
+    
     color: #808080;
-    font-size: 24;
-    padding: 20;
+    font-size: 18;
+    padding: 10;
+    margin: 5,5,5,5;
 }
 
 .title {
-    margin: 0 0 10 0;
-    font-size: 32;
+    margin: 10;
+    font-size: 24;
     color: #3c3c3c;
 }
 
+.txthint {
+    color: red;
+    background-color:white;
+    margin: 3,0,0,0;
+}
+
 page {
-    background-color: #383838;
+    background-color: gray;
 }
 
 button {
     background-color: orange;
     color: black;
+    font-size: 18;
 }
