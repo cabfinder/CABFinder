@@ -10,3 +10,12 @@
     font-size: 32;
     color: #3c3c3c;
 }
+
+page {
+    background-color: #383838;
+}
+
+button {
+    background-color: orange;
+    color: black;
+}
