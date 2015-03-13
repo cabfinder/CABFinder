@@ -1,14 +1,14 @@
 <Page xmlns="http://www.nativescript.org/tns.xsd" loaded="pageLoaded">
   <TabView>
     <TabView.items>  
-      <TabEntry title="REGISTRATION | Black Cab">
+      <TabEntry title="CABFinder | BLACK CAB | Registration">
         <TabEntry.view>
           <StackLayout cssClass="tab-content">
-              <Label text="FILL IN PLEASE" cssClass="title"/>
-              <TextField cssClass="txthint" hint="TfL License" size="2"/>
+              <Label text="Fill in the spaces please..." cssClass="title" />
+              <TextField cssClass="txthint" hint="TfL License" />
               <TextField cssClass="txthint" hint="DVLA License" />
               <TextField cssClass="txthint" hint="First Name" />
-              <TextField cssClass="txthint" hint="Last Name" size="2"/>
+              <TextField cssClass="txthint" hint="Last Name" />
               <TextField cssClass="txthint" hint="Mobile Number" />
               <TextField cssClass="txthint" hint="Email Address" />
              <Button text="SAVE" tap="buttonTap" />
