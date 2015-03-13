@@ -10,14 +10,32 @@ button {
 }
 
 .tab-content {
-    vertical-align: center;
+    
     color: #808080;
-    font-size: 24;
-    padding: 20;
+    font-size: 16;
+    padding: 3;
 }
 
 .title {
-    margin: 0 0 10 0;
-    font-size: 32;
-    color: #3c3c3c;
+    margin: 5,15,0,15;
+    font-size: 24;
+    color: #fff;
+}
+
+.txthint {
+    color: black;
+    background-color:#fff;
+    margin: 7,15,0,15;
+}
+
+page {
+    background-color: #555555;
+   
+}
+
+button {
+    background-color: orange;
+    color: black;
+    margin: 15,15,0,15;
+    font-size: 20;
 }

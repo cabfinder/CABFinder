@@ -6,7 +6,7 @@
           <StackLayout cssClass="tab-content">
               <Label text="Your Photo Please" cssClass="title"/>
 
-              <Button text="not happy CLICK again" tap="buttonTap" />
+              <Button text="CLICK" tap="buttonTap" />
               <Button text="SAVE & NEXT" tap="buttonTap" />
           </StackLayout>
         </TabEntry.view>

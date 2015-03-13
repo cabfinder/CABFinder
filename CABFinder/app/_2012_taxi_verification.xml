@@ -1,0 +1,18 @@
+<Page xmlns="http://www.nativescript.org/tns.xsd" loaded="pageLoaded">
+  <TabView>
+    <TabView.items>  
+      <TabEntry title="CABFinder | BLACK CAB | Registration">
+        <TabEntry.view>
+          <StackLayout cssClass="tab-content">
+              <Label text="Email and mobile verification please..." cssClass="title" />
+              
+              <Label cssClass="txtview" text="PayPal payment process..."/>
+              
+              
+              <Button text="PROCEED" tap="buttonTap" />
+          </StackLayout>
+        </TabEntry.view>
+      </TabEntry>
+    </TabView.items>
+  </TabView>
+</Page>
