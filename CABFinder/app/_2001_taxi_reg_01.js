@@ -1,6 +1,8 @@
 var view = require("ui/core/view");
 var dialogs = require("ui/dialogs");
-var vmModule = require("./view-models/view-model");
+var vmModule = require("./view-models/view_model");
+var frameModule = require("ui/frame");
+
 
 
 function pageLoaded(args) {
@@ -11,6 +13,8 @@ exports.pageLoaded = pageLoaded;
 
 
 function buttonTap2(args) {
+    var topmost = frameModule.topmost();
+   
     dialogs.confirm("Do you wish to continue?").then(function (result) {
         if (result) {
             var sender = args.object;
@@ -21,7 +25,10 @@ function buttonTap2(args) {
                     lbl.text = "Confirmed";
                 }
             }
+        } else {
+            topmost.navigate("app/_2002_taxi_reg_02");
         }
     });
+    
 }
 exports.buttonTap2 = buttonTap2;
