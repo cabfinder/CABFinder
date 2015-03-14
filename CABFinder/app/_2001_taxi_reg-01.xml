@@ -4,14 +4,14 @@
       <TabEntry title="REGISTRATION | Black Cab">
         <TabEntry.view>
           <StackLayout cssClass="tab-content">
-              <Label text="FILL IN PLEASE" cssClass="title"/>
+              <Label id="Label1" text="FILL IN PLEASE" cssClass="title"/>
               <TextField cssClass="txthint" hint="TfL License" size="2"/>
               <TextField cssClass="txthint" hint="DVLA License" />
               <TextField cssClass="txthint" hint="First Name" />
               <TextField cssClass="txthint" hint="Last Name" size="2"/>
               <TextField cssClass="txthint" hint="Mobile Number" />
               <TextField cssClass="txthint" hint="Email Address" />
-             <Button text="SAVE" tap="buttonTap" />
+             <Button text="SAVE" tap="taxi_reg" />
           </StackLayout>
         </TabEntry.view>
       </TabEntry>
