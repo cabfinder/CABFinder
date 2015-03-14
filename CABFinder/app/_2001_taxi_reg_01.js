@@ -1,13 +1,13 @@
 var view = require("ui/core/view");
-var count = 0;
-function taxi-reg(args) {
-    count++;
+
+function buttonTap(args) {
+
     var sender = args.object;
     var parent = sender.parent;
     if (parent) {
         var lbl = view.getViewById(parent, "Label1");
         if (lbl) {
-            lbl.text = "You tapped " + count + " times!";
+            lbl.text = "Success";
         }
     }
 }
