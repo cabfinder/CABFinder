@@ -5,7 +5,7 @@
   "AppIdentifier": "com.telerik.CABFinder",
   "DisplayName": "CABFinder",
   "Author": "",
-  "Description": "",
+  "Description": "CABFinder",
   "BundleVersion": "1.0",
   "AndroidVersionCode": "1",
   "iOSDeviceFamily": [
