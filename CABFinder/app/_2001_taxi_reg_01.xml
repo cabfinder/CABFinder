@@ -1,10 +1,11 @@
 <Page xmlns="http://www.nativescript.org/tns.xsd" loaded="pageLoaded">
+ <ScrollView>
   <TabView>
     <TabView.items>  
       <TabEntry title="REGISTRATION | Black Cab">
         <TabEntry.view>
           <StackLayout cssClass="tab-content">
-              <Label id="Label1" text="FILL IN PLEASE" cssClass="title"/>
+              <Label id="Label1" text=" TEST1 FILL IN PLEASE" cssClass="title"/>
               <TextField cssClass="txthint" hint="TfL License" size="2"/>
               <TextField cssClass="txthint" hint="DVLA License" />
               <TextField cssClass="txthint" hint="First Name" />
@@ -20,4 +21,5 @@
       </TabEntry>
     </TabView.items>
   </TabView>
+ </ScrollView>
 </Page>
